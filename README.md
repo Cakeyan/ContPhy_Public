@@ -2,6 +2,8 @@
 
 This repo contains the code related to the ICML 2024 paper [ContPhy: Continuum Physical Concept Learning and Reasoning from Videos](https://physical-reasoning-project.github.io/), including dataset construction of question generation, ContPRO and Baselines. 
 
+**For more information about code in this repo, please directly email cakeyanxin@gmail.com.**
+
 If you need codebase for ContPhy dataset generation, please see [Code-VideoGen](https://github.com/zzcnewly/ContPhy-Gen/tree/main). 
 
 > ### ContPhy: Continuum Physical Concept Learning and Reasoning from Videos   
@@ -12,19 +14,25 @@ If you need codebase for ContPhy dataset generation, please see [Code-VideoGen](
 
 ## Question Generation
 
-See folder 'questions'. We have released the question generation for 'rope' scenario and included a raw metadata for debugging.
+See folder 'questions'. We have released the question generation for 'rope'(aka 'pulley') scenario and included a raw metadata for debugging.
 
 ### To run pulley question generation
 
+```bash
 bash scripts/run_pulley_question.sh
+```
 
 ### To sample
 
+```bash
 bash scripts/run_sampler_pulley.sh
+```
 
 ### To visualize results
 
+```bash
 streamlit run visualization/visualize_pulley.py
+```
 
 ## ContPRO, the Oracle Model
 
